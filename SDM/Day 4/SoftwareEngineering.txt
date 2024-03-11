@@ -1,0 +1,366 @@
+ 
+ 
+	Programmer-----
+			a person who is responsible for writing programs
+				public static void main(){}
+				classes-------------------Object Oriented PRogramming
+
+				------C, C++,Java, C#-----------------------language
+			     Java runtime, .net runtime------------runtime
+			     objects, collection-------------------collection framework
+			     Creating Exeuctable application-------Web Applin, database connectivity (tools)
+			      
+	Software Enggineer-------
+
+				
+			    SE----------Softwarwe Engg/ System Engg.
+			    SSE----------Senior Software Engg.
+
+
+	 
+		
+	How Enggineer word arrived ?
+	 
+	ingenerare------latin word
+				
+				to invent-------------			
+				to discover
+				to create
+				to regulate------------fine tunning
+
+	Art:   Creativity
+	Science:facts
+	technology:use of science for humanity
+	
+	Engineering:art of science
+		    appliation of Sceicne
+			discipline------
+				is the use of scientific principles to  design
+								    to  build machines, structures, softwares
+									     bridges, vehicles,
+									     building
+								    
+		BRS: ( Business Analyst)
+			
+				Bussiness Requirement Specification
+		
+		SRS : (System Analyst)
+
+				Software Requirement Specificiation
+
+		Design:(Software Architect -system Designer)
+				
+				POC---Proof Of Concept Design
+				UML Diagrams
+				ER Diagrams
+
+		Developer(Software Develoepr)
+		
+				Code Respositories,
+				Built Solutions----
+
+
+
+Follow Software Engineering:
+
+			Process:
+			Process Model:
+			Software Developement Life Cycle (SDLC)
+			
+					Planning
+					defining
+					Designing
+					Building
+					Testing
+					Deplouyment
+							
+			
+			Planning and Requirement Analysis:
+					client meeting
+					survey
+					campagin
+					Explore other businesses providing similar kind services
+
+					so that we will be able to gather requirement:
+
+What is the full meaning of engineering?
+Engineering is the use of scientific principles to design and build machines, structures, and other items, including bridges, tunnels, roads, vehicles, and buildings. ... The term engineering is derived from the Latin ingenium, meaning "cleverness" and ingeniare, meaning "to contrive, devise".
+
+
+Engineering is a branch of science and technology 
+that is concerned with design, building etc. 
+with the concern of its effect on society, economy and environment.
+
+What do you mean by Software ?
+
+Software as a product (SaaP, also programming product, software product) — is a product, software, which is made to be sold to users, and users pay for licence which allows them to use it, in contrast to SaaS, where users buy subscription and where the software is centrally hosted.
+
+
+Some examples are facebook, Google AdWords, SAP, AutoCAD and Microsoft Office. Mixed: in this case, the product solves the problem both for end customers and companies. Usually, this type of products doesn't have any cost for the end customer; companies pay the bill.
+
+
+Software ENGINEERING CODE OF ETHICS AND LICENSE
+
+A software engineer is often confused with a programmer, but the two are vastly different disciplines. 
+A programmer is tasked with creating the code that makes a program run, whereas a software engineer is responsible for designing, developing and implementing the software solutions programmers create.
+
+By U.S. law no person may use the title “engineer” (of any type) unless the person holds a professional engineering license from a state licensing board and is in good standing with the board. 
+
+A software engineer is also held accountable to a specific code of ethics.
+
+
+
+SOFTWARE ENGINEER JOB DESCRIPTION AND REQUIREMENTS
+
+The role of a software engineer, or computer software engineer, is to develop highly functional, solution-based software processes and solutions that address specific needs within an organization or department. These software solutions need to have been thoroughly tested for accuracy and security before implementation, and they need to comply with current coding standards and operating procedures.
+
+Software engineers are tasked with evaluating existing operations within the company, finding and defining problems or areas for improvement, proposing and developing solutions for these issues in the form of new or improved software processes, and testing, implementing, and maintaining these software changes.
+
+This requires in-depth knowledge and experience with the software development lifecycle (SDLC) and the ability to write and explain code created in a variety of languages such as C++, .NET, Java, Python, etc. A software engineer needs to be able to communicate at both a very in-depth, detailed level with computer programmers .
+
+
+WHAT DOES A SOFTWARE ENGINEER DO IN A TYPICAL DAY?
+
+A software engineer’s typical work day involves juggling a variety of tasks and balancing working on numerous software projects that are often in different stages of the software development lifecycle (SDLC). Meetings to discuss software project status updates, new software project roadmaps, and organizational logistics such as new hires also play a key role in a software engineer’s workweek.
+
+Software engineers are expected to prioritize their tasks while working on several software projects in parallel, and as a result their work day might involve writing or refining software code for one project in the morning before attending or running a meeting to cover the progress on another software project, followed by conceptualizing and developing ideas and requirements for an upcoming project, before finally wrapping up the day by documenting milestones and progress made over the course of the day or week.
+
+a computer software engineer’s work regularly involves:
+
+1.Analyzing spreadsheets and reports to identify performance bottlenecks, operational issues, and other areas for improvement
+2.Brainstorming and developing plans, flowcharts, layouts and resource requests as part of creating new software projects as potential solutions for identified issues
+3.Write high-quality, well-commented code for new and existing software projects
+4.Create software verification plans and initiate quality assurance processes
+5.Test and integrate software code and components into existing software systems
+6.Fully document software systems and plans for maintaining software projects
+7.Ensure compliance with regulations and industry standards
+8.Monitor, troubleshoot, debug and improve software code base for existing systems
+9.Update and patch software systems as necessary with security patches and feature upgrades
+
+
+HOW DO YOU BECOME A SOFTWARE ENGINEER?
+
+A software engineer needs to possess extensive knowledge and fluency in a variety of computer languages such as C++, .NET, Java, and Python, and be able to effectively and efficiently communicate technical knowledge with others in the organization.
+
+In larger organizations, software engineers often have specialized roles in areas such as servers, operating systems, networks, databases, cloud, applications and virtualization.
+
+A computer software engineer will typically need a Bachelor’s degree (or Master’s) in computer science, math / engineering, or science, and will need to show experience and proficiency in analytical and problem-solving skills, communicating and working well with others, specialized software knowledge, and time management.
+
+Finally, companies will want to see that a software engineer has a proven track record of writing code that is efficient, complies with coding standards, and integrates well with code written by others.
+
+
+Software Processes
+
+A software process is the set of activities and associated outcome that produce a software product. Software engineers mostly carry out these activities. These are four key process activities, which are common to all software processes. These activities are:
+
+1.Software specifications: The functionality of the software and constraints on its operation must be defined.
+2.Software development: The software to meet the requirement must be produced.
+3.Software validation: The software must be validated to ensure that it does what the customer wants.
+4.Software evolution: The software must evolve to meet changing client needs.
+
+
+The Software Process Model
+
+A software process model is a specified definition of a software process, which is presented from a particular perspective. Models, by their nature, are a simplification, so a software process model is an abstraction of the actual process, which is being described. Process models may contain activities, which are part of the software process, software product, and the roles of people involved in software engineering. Some examples of the types of software process models that may be produced are:
+
+
+Software Crisis
+
+1.Size: 
+Software is becoming more expensive and more complex with the growing complexity and expectation out of software. For example, the code in the consumer product is doubling every couple of years.
+
+2.Quality: 
+Many software products have poor quality, i.e., the software products defects after putting into use due to ineffective testing technique. For example, Software testing typically finds 25 errors per 1000 lines of code.
+
+3.Cost: Software development is costly i.e. in terms of time taken to develop and the money involved. For example, Development of the FAA's Advanced Automation System cost over $700 per lines of code.
+
+4.Delayed Delivery: Serious schedule overruns are common. Very often the software takes longer than the estimated time to develop, which in turn leads to cost shooting up. For example, one in four large-scale development projects is never completed.
+
+
+Why is Software Engineering required?
+
+Software Engineering is required due to the following reasons:
+
+1.To manage Large software
+2.For more Scalability
+3.Cost Management
+4.To manage the dynamic nature of software
+5.For better quality Management
+
+Need of Software Engineering
+
+The necessity of software engineering appears because of a higher rate of progress in user requirements and the environment on which the program is working.
+
+Huge Programming: 
+
+It is simpler to manufacture a wall than to a house or building, similarly, as the measure of programming become extensive engineering has to step to give it a scientific process.
+Adaptability: If the software procedure were not based on scientific and engineering ideas, it would be simpler to re-create new software than to scale an existing one.
+
+Cost: 
+
+As the hardware industry has demonstrated its skills and huge manufacturing has let down the cost of computer and electronic hardware. But the cost of programming remains high if the proper process is not adapted.
+
+Dynamic Nature: 
+
+The continually growing and adapting nature of programming hugely depends upon the environment in which the client works. If the quality of the software is continually changing, new upgrades need to be done in the existing one.
+
+Quality Management: 
+
+Better procedure of software development provides a better and quality software product.
+
+
+Requirement Engineering:
+
+	BRS (Business Requirement Specification)
+
+		It is a document that describes the requirements of the client using the non-technical expression.
+		It prepares the report of the user connections.
+		In the BRS document, it is not important to contain the references of figures and tables.
+		The BRS document is obtained from relating to the client's requirements and taking responsibility for them.
+		In the BRS document, all the client's requirements complete in all the details are together and accessible.
+		The BRS Document is prepared by a team of Business Analysts (BA) who interacts with the clients
+		It defines, at a very high level, which includes the functional conditions of the application.
+
+
+
+Document:
+
+	Business Requirement  Specification For BigBazzar.com
+
+
+	Introduction:
+
+	Domain:ECommerce
+	       E-commerce solutions are the products and services that help a company conduct business electronically. 
+               E-commerce software is the backend of a business's online store. 
+	       It empowers business owners to easily create a website to sell products, manage inventory, accept and process payments, and handle fulfillment.
+
+			Solution:Online Shopping Portal
+				Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services 
+				from a seller over the Internet using a web browser or a mobile app.
+				 ... Online stores usually enable shoppers to use "search" features to find specific models, brands or items.		
+			Stake holder: Big Bazzar
+			Actors:People  who are going to use system
+				End Users
+				Shoppers
+				Suppliers
+				Shipping Vendors
+				BigBazzar Staff (Sales representative, managers)
+				BOD ( Board of Directors)
+		Capture Requirements:
+				 Bussiness Scenario
+				 End Users will be able to view availalable products online using thier  mobile devices, laptops and computer machines.
+				 Endu Users will be able to select product from product catalog with their detail information such as  Title, Description, unitprice
+				 and stocks available.
+				 End User will be ablt to add selected items with quantity in to shopping cart maintained by System interally.
+				 End Users will be able to manage their shopping  in personalized manner. he/ she can add or remove items from Shopping Cart
+				 Registerd customers will be only allowed to place an order for items added into their respective ShoppingCart
+				 Registerd customers are supposed to  log in  to the system with thier credentials.
+				 System should manage online payment for orders placed by registered  customer with the help of Electronic Payment mode.
+				 Registered Customers are given to choose payment mode  on delivery or online payment.
+				 Once order is placed , Registered Customer can track order Delivery using portal.
+				 Registered Customer can can cancel placed in 24 hours time.
+				 Registerd Customer can view Orders History  using portal.
+				 Registered Customer is allowed to change his personal details  such as  Personal Address and Delivery Address.
+				
+				 
+				Shoppers
+
+
+
+
+				Shipper
+
+		Scope:
+
+		Terms and Conditions:
+		
+		appendix:
+			  List of business words with their detail meaning
+
+			  Enduser----------------------------------------------------------------------
+			  Shopper---------------------------------------------------------------------
+			  ShoppingCart----------------------------------------------------------------
+			  Product Catalog-------------------------------------------------------------
+
+
+_________________________________________________________________________________________________________________________________________________________________
+
+
+SDLC (Software Development Life Cycle)
+
+Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. 
+The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates.
+
+
+SDLC Models
+
+
+1.Waterfall Model
+2.Iterative Model
+3.Spiral Model
+4.V-Model
+
+
+
+
+1.Waterfall Model
+
+In a waterfall model, each phase must be completed before the next phase can begin and there is no overlapping in the phases.
+
+The Waterfall model is the earliest SDLC approach that was used for software development.
+
+The waterfall Model illustrates the software development process in a linear sequential flow. 
+This means that any phase in the development process begins only if the previous phase is complete. 
+In this waterfall model, the phases do not overlap.
+
+The sequential phases in Waterfall model are −
+
+Requirement Gathering and analysis − 
+All possible requirements of the system to be developed are captured in this phase and documented in a requirement specification document.
+
+System Design − 
+The requirement specifications from first phase are studied in this phase and the system design is prepared. 
+This system design helps in specifying hardware and system requirements and helps in defining the overall system architecture.
+
+Implementation − 
+With inputs from the system design, the system is first developed in small programs called units, which are integrated in the next phase. 
+Each unit is developed and tested for its functionality, which is referred to as Unit Testing.
+
+Integration and Testing − 
+All the units developed in the implementation phase are integrated into a system after testing of each unit. 
+Post integration the entire system is tested for any faults and failures.
+
+Deployment of system − 
+Once the functional and non-functional testing is done; the product is deployed in the customer environment or released into the market.
+
+Maintenance − 
+There are some issues which come up in the client environment. 
+To fix those issues, patches are released. 
+Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
+
+
+
+Waterfall Model - Advantages
+
+	Simple and easy to understand and use
+	Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.
+	Phases are processed and completed one at a time.
+	Works well for smaller projects where requirements are very well understood.
+	Clearly defined stages.
+	Well understood milestones.
+	Easy to arrange tasks.
+	Process and results are well documented.
+
+
+Waterfall Model - Disadvantages
+	No working software is produced until late during the life cycle.
+	High amounts of risk and uncertainty.
+	Not a good model for complex and object-oriented projects.
+	Poor model for long and ongoing projects.
+	Not suitable for the projects where requirements are at a moderate to high risk of changing. So, risk and uncertainty is high with this process model.
+	It is difficult to measure progress within stages.
+	Cannot accommodate changing requirements.
+	Adjusting scope during the life cycle can end a project.
+	Integration is done as a "big-bang. at the very end, which doesn't allow identifying any technological or business bottleneck or challenges early.
+

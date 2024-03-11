@@ -1,0 +1,167 @@
+31_5_2022
+
+
+Agenda:
+	Case Study:
+			ECommerce Solution
+			Online Shopping Application
+			(Web based Solution)
+	SDLC
+	SRS
+	Analysis
+	Design
+
+
+
+We started......................
+
+Web Application
+Online Applications
+	Shopping Application
+	gmail
+	AxisBankonline
+
+	Software Engineering
+		SDLC:
+		Software Development Life Cycle:
+		Different phases of SDLC:
+			Planning:Requirement Gathering ( Requirement Engineering)
+				(Subject Matter expert, Domain Experts, Business Analyst, QA Team, 
+				 Solution Architect,etc. Customer)
+			2.Analysis phase
+				(Bunsiness Analyst, System Analyst, Software Architect, QA Team)
+			3.Design phase
+				(Solution Designers, Software Architects, Senior Developers)
+			4.Development phase
+				(Full stack Developers,
+				 Front End application Developers (UI/ UX Developers)
+				 Datase Developers,
+				 Core application Developers, etc.)
+					
+			5.Testing phase
+				 Mannual Testers
+				 Automation Testers
+				 Testing Enviornments
+				 Testing Tools
+			6.Deployment phase
+				Production Enviornment
+				Production Team
+					Senior Develoeprs
+					System Engineers
+					DevOps Engineers		
+			7.Support (Maintainance) phase
+					 System Engineers
+					 DevOps Team
+					 Customer Support Engineers
+					
+
+	SDLC Model:
+			Water fall Model
+			Spiral Model
+					Agile Methodology
+
+
+
+
+_____________________________________________________________________________________________________________________________________
+
+1.Planning: 
+	actors involoved:
+			Supervisors, Business People, 
+			Business Executives( CEO, BOD, investors)
+			stakeholder:
+				     people who want to purchase product items
+				     Suppliers 
+				     Salers
+				     staff ( sales, marketing)
+
+	1.Who is going to use the software application?
+		stakeholder
+		BOD
+	2.How is the software application going to be used?
+		Registered users will be able to purchase prouduct items from remote place ( from anywhere)
+		Salers will be able add new product or update stock of promoted product using this software
+		Staff will be able to track Business Operations day to day basis, 
+		Staff will be able get 360 degree view of complete Product shopping.
+		Staff will be able to control shopping from their workplace.
+	3.What is information going to be processed by software? 
+		placed orders will be processed by Software.
+		online payment processing will be taken care  using Payment Gateways, UPI, Net banking, Cash on delivery.
+		Product catalog will be maintained by Software.
+		Inventory will be keep updated as and when required
+		Smart discountinng, promotions will be managed by software
+	4.What kind of investment needed for Online Shopping ?
+		infrastructure cost
+				hardware cost, 
+				energy cost
+		platform cost
+				networking devices,
+				Server licences
+				Database server cost
+				
+		service cost
+				Software build cost
+				Software migration cost
+				Software Administration, configuration.
+		
+	5.Timeline for getting software Up and running ?
+	6.What kind of resources required to build software ?
+	
+	Define Scope:
+			
+		Business Requirement Specification (Functional Requirement Specification)
+
+Requirement Gathering ( Requirement Engineering)
+
+	ECommerce Online Shopping
+
+	SRS Document: Software Requirement Analysis
+
+	Requirement Specification:
+		Introduction:
+		Objective:
+		stakeholders
+	
+	        Functional Requirement :
+			Product Catalog:
+		
+			Shopping Cart:
+			Payment Processing: 
+			Billing:
+			Wishlist:
+			Delivery(Shipping):
+			OrderProcessing:
+			CRM:
+			BI:
+			Recommendation:
+			Reviews, 
+			Profile
+			
+
+		NonFunctional Requirement :
+			Security
+			Reliability
+			Availability
+			maintainability
+			portability
+			accessibility
+			durability
+			Scalability
+
+
+			
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+

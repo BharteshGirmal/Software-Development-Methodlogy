@@ -1,0 +1,325 @@
+
+
+Day 8 Agenda:
+	Software Development Methodologies
+
+	Application Architecture
+	Microservices Architecture
+	
+		 Physical Infrastrcture
+		 Virtualized Infrastrcture
+	Introduction to Cloud Computing
+
+
+	Development Enviornment:
+				Development Tool
+					compiler, degugger, profiler, package deployment tool
+								      (installshiled,etc.)
+				Programming Languages
+					C, C++, Java, C#, typescript, Javascript, Python,etc.
+				Inbuilt as well as external libraries
+					.lib files, .class files, .dll files
+					.rar files, .tar files, .zip files, .jar file
+				Project Management CLI command, IDE tool
+				
+				ECommerce Solutions-----set of projects---
+
+					1.Stock management application,
+						Inventrory management---------------------------Windows application
+						Windows  based Application ( Store Keeper)  ( used by staff, employees)
+							windows Forms
+							Dialog Boxes, 
+							Navigation controls
+							Notification controls
+							( JTextBox, JList, JFrame,etc.---Swing/ JFC)
+
+					 2.ECommerce Portal--
+						Web Application ( Web Site + set of reusable Web Services)
+							for End user--------------( B-2-C type application) (Web Site)
+							For existing web application or web sites----( B-2-B type application) (Web Services)
+						
+						(SAAS):Software As A Service
+
+						ECommcerce as a Service
+							Web Service: a Programmable Logic accessed via  Web Protocols
+							      (HTTP--protocol
+								JSON, XML ---data format for request and response)
+								reusable web services (web api, REST API)
+								using Sring Boot or Django framework'
+								or Express JS Framwork
+								or asp.net Web api																					Web based Application used by  ( customers, retailers, shoppers)
+							WebSite
+							Web Pages
+								Server Side  Technologies:
+									Servlet,( mvc--- Jakarta Struts,
+									Spring MVC, etc.
+									PHP,ASP, ASP.NET, EXPRESS, DJANGO
+
+								Client Side UI Technologies:
+									Front End:
+										HTML, CSS, Javascript, JQuery, Angular, 
+										React,.etc.
+										Boostrap
+								Source code
+								    Logic using Object orientation
+									Packages------.java files---
+										-----interfaces, classes, enumeration
+										abstract method, class members,
+										functions, Inheritance, Polymorphism
+										Method overloading, method overrriding
+							
+								    		Logic using Procedural way
+								----Resources files
+								    (binary files)
+									.jpg, .bmp, .svg,
+									.mp3, .mp4,
+									.OTF, . TTF, and . FNT.
+								data Files
+									txt file,
+									.csv files,
+									.xlsx,
+									.docx
+									.pdf				
+						 3.Console Application: (Tester)
+								used for creating  tools, commands
+							 	used for Unit Testing	
+						4.Mobile App.
+								Java based Mobile App Development
+									( end users, 
+									  Sales Team,
+									  Marketing Team,
+									  Exeuctive Team)
+								
+
+	Tester Enviornment
+	Stagging Enviornment
+	Production Enviornment
+
+________________________________________________________________________________________________________________________________
+
+
+Solution Design using Layered Arhitecture
+
+
+
+Layered architecture pattern in software engineering:
+
+
+The layered software architecture pattern is the most commonly used architecture pattern in software engineering. This architectural pattern is also known as the n-tier architecture style or the multi-layered architecture style. The purpose of a layered architecture is to organize the components of an application into horizontal logical layers and physical tiers.
+
+A layer is a logical unit that separates a specific role and responsibility within an application. Each layer manages its own software dependencies. A higher layer can use services in a lower layer, but not the other way around. A tier is a physical unit where the code runs; for example, a web server or a database.
+
+Each layer can be hosted in its own tier, however it is not required. Several layers can be hosted on the same tier. Scalability, maintainability and resiliency are increased when physically separating the tiers, however latency increases due to the additional network communication.
+
+
+The four standard layers are described as follows.
+
+Presentation Layer
+This layer contains all user interfaces exposed to a user. It may provide different types of user interfaces, namely web, desktop and native mobile applications.
+Business Logic Layer
+This layer handles all business logic, validations and business processes.
+Data Access Layer
+This layer is responsible for interacting with a database. It is also known as the persistence layer.
+Data Store Layer
+This layer is the actual data store for the application.
+
+
+By introducing different layers for the software components, separation of concerns (SoC) is increased drastically, thus improving simplicity, maintainability and test-ability of the components.
+
+The tiers are described as follows.
+
+Tier 1: The Presentation Tier
+This tier hosts the front-end code base, that is, the presentation layer. This is the topmost level of the application and it is essentially a layer users can access directly.
+Tier 2: The Application Tier
+This tier hosts the back-end code base, that is, the business logic layer and data access layer. It is also known as the middle tier.
+Tier 3: The Data Tier
+This tier hosts the data store, that is, the data store layer. Databases, file system, blob storage, document database, etc are examples of resources found in a data store.
+
+
+
+1.Data Layer:
+	Database:
+		Products: id, title, unitprice, description, StocksAvailable, picture, categoryid
+		Categories:id, title, decription
+		Orders:	id, orderdate, customerId,TotalAmount, status
+		OrderDetails:id, productid, quanity, orderid, status
+		Customers:id, firstname, lastname, email, contactnumber,residentialaddress, billingAddress,userid
+		Suppliers:id, company, contactPerson,
+		Payments:paymentid, paymentdate, amount, paymentMode,orderid
+		Deliveries:deliveryId, deliveryDate, vendorId, orderid, status,
+		Roles:roleid, title, description
+		Users:userid, loginname, password, roleid
+		etc.......
+	
+	Ready made Stored Procedures
+	Triggers : from data validation Point of view
+	
+2.DAL ( Data Access Logic Layer)
+	DBManager--------------Abstract Class
+	SQLDBManager--------SubClasses (Singleton class)
+	OracleDBManager-----SubClasses (Singleton class)
+	MongoDNBManager-----SubClasses(Singleton class)
+	Connection :
+			Open , Close
+	Command:
+			ExecuteStatement
+				Create STatement
+				Insert statement
+				Update statement
+				Delete statement
+			
+	ResultSet
+			MoveFirst,
+			MoveLast,
+			Next
+			Prevision
+			read each element
+	DBTransaction
+			Commit
+			Rollback
+			define set of operations as one unit
+	
+	
+3.Business Logic Layer
+
+		ProductCatalogManager
+		ShoppintCartManager
+		CRM Manager
+		OroderPeocessingManager
+		PaymentTracker
+		ShipmentManager
+
+		Business Entity classes ( POJO or POCO) (Business Objects)
+		(Entity Classes)
+		Product
+		Customer
+		Payment
+		Order
+		ShoppingCart
+		Item
+		Credential 
+
+		Collection Classes:
+		 List,
+		 Hashtable
+		 STack
+ 		 Queue
+		 Vector
+
+
+
+
+4.Service Layer:
+		
+Service
+	services will take input from consumer application
+	Services will do processing and in trun they return response as desired result in indepence format (JSON)
+	
+	ProductHubService		
+	OrderProcessingServer
+	PaymentProcessingService
+	ShipmentService
+	AuthenticationService
+	CRMService
+	ShoppingCartService
+
+5.Rich Client  UI App Layer ( windows)
+	Frame
+	forms
+	Controls
+	data Binding'
+	event binding
+	External DAta ACcess from remote Web api
+
+6.WEb Front End Layer
+	Web pages
+		Server Side Pages
+		JSP:
+			index.jsp
+			list.jsp
+			details.jsp,
+			cart.jsp
+			customerDashboard.jsp
+			OrderHistory.jsp
+		asp.
+			index.asp
+			list.asp
+			details.asp,
+			cart.asp
+			customerDashboard.asp
+			OrderHistory.asp
+		php
+			index.php
+			list.php
+			details.php,
+			cart.php
+			customerDashboard.php
+			OrderHistory.php
+		Authentication
+		Authorization
+		Caching
+		Session Management
+		etc.
+		External DAta ACcess from remote Web api
+
+
+7.Front End Layer( Single Page Application Layer using Client Side UI)
+	index.html
+	React/ Angular
+		  UI Component
+			list component--------------
+			details component------------
+			cart component--------------
+			item component---------------
+			customerDashboard component---
+			OrderHistory component------ 
+	Component Routing
+	External DAta ACcess from remote Web api
+	Dynamic data Binding
+	Dynamic event Binding
+		  UI Component
+			
+	Component Routing
+	External DAta ACcess from remote Web api
+	Dynamic data Binding
+	Dynamic event Binding
+
+
+9.Smart Mobile App Layer
+	Single Page Application
+	Mobile UI Component
+	Mobile UI Routing
+	Mobile UI Activities
+	External DAta ACcess from remote Web api
+	Dynamic data Binding
+	Dynamic event Binding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

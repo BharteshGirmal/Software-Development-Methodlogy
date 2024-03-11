@@ -1,0 +1,141 @@
+
+
+Welcome to Classroom
+
+	Good morning all of you
+
+	Todays Agenda:
+		
+		SRS
+		Functional Requirements in SRS document
+		Non Functional Requirement in SRS document
+
+		Design:
+			Characteristics of  Good Design
+			Functional Design VS. OOD
+			Modularity, Cohesion, loose coupling
+			Layers
+			OOAD-UML
+
+			Programming Prinicples
+			Code convetions
+
+	
+
+
+Analysis:
+	1. Functional way----------------functionalities
+					   features,	
+						data structures
+							DFD---Data flow Diagram
+							ER Diagrams
+							data type
+
+							record
+							Table
+							constraints  primary key, foreign keys			
+							
+					   	algorithms
+							 operations,
+								insert, update, delete, get , get alll( crud)
+								Analtical operations,
+					
+					   
+				
+	2. Object Oriented Approach (OOA)
+			natural way of thinking
+			identifying real world entities in your system ( objects)
+			think object, speak object, 
+				product, order, payment, cart , item,
+				delivery, credential, Role, 
+				
+			classify objects bases on common beviour, state and identity
+				
+	Pillars of Object Orientation:
+				Abstration
+				Encapsulation
+				Inheritance and Ploymorphism
+				Hiearchy
+
+				concurrency
+				modularity
+				persistence
+				
+	Abstration:
+			selective ignorance
+			Getting essential characteristics of a system depending on the perspective of an observ
+
+				
+				
+
+	the process of studying a procedure or business 
+	to identify its goal and purposes and 
+	create systems and procedures that will efficiently achieve them
+
+	OOA:
+		Object Oriented Analysis
+		
+	
+	
+
+Use cases
+	actors 
+	senarios use cases (modules)
+	flow of events
+	 
+	 stakholder and  system inteaction
+	 System boundry
+
+outcome : 
+	Use Case Diagram
+
+
+
+Design :
+	OOD
+	(Object Oriented Design)
+	
+	Sequece diagram----------------object interaction diagram
+	Class diagram------------------association,inheritance relationship between 
+	State transition Diagram-------Workflow
+	Activity Diagram-----------------
+	
+
+Development:
+	    Developers
+
+	OOP ( object oriented programming)
+
+	namespace ( packages)  : modules
+	classes and interface  : Blue print for objects, Define contracts
+	access specifiers ( public, private, protected, package scope): Encapsulation
+	abstract methods, overriable methods:Inheritance
+	singleton design pattern      : private constructor, static method, self reference  as member
+	factory patters		      : Connection factory
+	Oberserver pattern	      :  Action listeners
+	standard MVC framework	      :  Jakarta Struts, Spring MVC
+	Service Oriented Architecture :   REST API ---Spring boot api, Expres js, Django,  asp.net web api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

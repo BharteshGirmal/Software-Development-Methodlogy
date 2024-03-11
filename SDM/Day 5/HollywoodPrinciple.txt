@@ -1,0 +1,66 @@
+
+
+This little sentence opens up a new viewpoint in software. This is one of the important principles every developer should know. In this article, we will try to discuss it.
+
+"Don't Call Us, We'll Call You": What Does it Mean?
+In layman terms, you don’t have to bother about when your turns come. When your turns come, they will call you.
+
+But what do "you" and "they" denote here?
+
+To explain "you" and "they" in technical terms, first we need to understand how software design works. When we design a software, we try to implement two things.
+
+API
+
+Framework
+
+DZone > Java Zone > The Hollywood Principle
+The Hollywood Principle
+The Hollywood Principle says, ''Don't call us, we'll call you.'' Read on to see what that means in software terms and how to apply it in practice.
+Shamik Mitra user avatar by Shamik Mitra  · May. 23, 17 · Java Zone · Tutorial
+ Like (19)
+  Comment (4) 
+ Save
+   Tweet  25.62K Views
+Join the DZone community and get the full member experience. JOIN FOR FREE
+
+The Hollywood Principle says:
+
+Hollywood.jpg
+
+This little sentence opens up a new viewpoint in software. This is one of the important principles every developer should know. In this article, we will try to discuss it.
+
+"Don't Call Us, We'll Call You": What Does it Mean?
+In layman terms, you don’t have to bother about when your turns come. When your turns come, they will call you.
+
+But what do "you" and "they" denote here?
+
+To explain "you" and "they" in technical terms, first we need to understand how software design works. When we design a software, we try to implement two things.
+
+API
+
+Framework
+
+API
+An API is used to publish some methods/functions, so the caller/user of the API calls this method to get some useful information. So, the caller does not have any action points to take — only call methods and outputs.
+
+
+
+Framework
+The framework is a little bit more critical than the API. The framework is maintaining an algorithm, but it expects the value to be produced by the caller of the framework. To put it simply, the framework takes the strategy or business implementation from the caller and calls it when required.
+
+With the Hollywood Principle, we can feed our strategy or business implementation, denoting the framework engine/implementation, which calls the fed strategy when required.
+
+
+
+Real-Life Example
+Spring DI: Think about Spring, where we declare beans in XML, and Spring containers call these beans to create Spring beans. We inject other beans into it, returning a fully configured bean. So with the help of XML, we feed the strategy, and the Spring container calls them when required. We often call it Dependency Injection. In fact, you might also know the Hollywood Principle by another name: IoC (Inversion of Control).
+
+Struts 1.x: Pay attention to the Struts 1.x implementation, where the caller of Struts extends ActionClass and provides business implementations in the Action class. The Struts framework calls those Action classes based on the URL mentioned in Struts config file. So here, the Action class is the strategy, and the Struts framework invokes it.
+
+Observer pattern/Listener in Swing: Think about Swing’s actionListener. We subscribe to an event, like button click on Blur, and when this event occurs, Swing calls our code written in the actionPerformed method.
+
+
+Apart from this, a servlet/EJB maintains lifecycles, so the underlying server calls the appropriate lifecycle method when the servlet or EJB state is changed.
+
+We call those methods Callback methods because the framework calls this method. We don’t have to call them, but we may provide the implementations of those methods if we want to push some strategies in the framework.
+

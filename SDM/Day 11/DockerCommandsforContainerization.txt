@@ -1,0 +1,49 @@
+Create Virtual Server (Machine ) using AWS Subscription
+
+
+
+Installing Docker on Amazon Linux 2
+	
+1.Search for Docker package
+	sudo yum search docker
+
+2.Get version information
+	sudo yum info docker
+3.Install docker, run
+	sudo yum install docker
+
+4.Enable docker service at AMI boot time:
+	sudo systemctl enable docker.service
+5.Start the Docker service:
+	sudo systemctl start docker.service
+
+6.Get the docker service status on your AMI instance, run:
+	sudo systemctl status docker.service
+
+7.Clone repository from Ravi Tambade github
+
+	git clone  https://github.com/RaviTambade/webapp.git
+	cd webapp
+8.Build Docker Container using following command
+	
+	sudo docker build  -t webapp .
+
+9.List Docker Images created on Virtual Server
+
+	sudo docker images
+10.Run Docker Container instance which has node js web server code
+
+	sudo docker run  --name testserver  -d  -p  8081:8081  webapp
+11.List all Docker container instance running with the help of Docker engine
+	sudo docker ps
+12.List all docker images
+	sudo docker images	 
+	
+13.If you need to kill specific container instance , use follosing commaing
+	 
+	sudo docker kill 1234rf45     --------kill (stop and remove) container which is run by docker .
+14.If you need to remove container image from your virtual server, use following command
+ 	
+sudo docker rmi  imageid      --------remove container image from machine
+	
+	

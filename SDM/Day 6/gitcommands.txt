@@ -1,0 +1,27 @@
+git clone url
+	 Download content of git repo to local repo on machine.
+
+git pull url
+	pull all repo contents from  git repository to local repo
+git push -u origin main
+	push changes from stagging to  git repository
+
+Set your user name and email
+
+git config --global user.name "your name"
+git config --global user.email "your email id"
+
+ 
+
+git log
+	
+git commit -m "message"
+	save changes to stagging area.
+
+
+git  init 
+
+to Share your code you create a repo on remote server to whihc you will copy your local repository
+ 
+
+git remote add origin ssh://username@server :/ repo.git

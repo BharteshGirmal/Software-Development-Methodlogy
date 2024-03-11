@@ -1,0 +1,172 @@
+
+
+Day 9:
+
+Agenda:
+
+Moving personal computing to Distributed Computing
+Taking full advantage of internet ( network of network computers)
+
+Moving from Desktop computing to Distributed Computing
+Moving from Physical Machine to Virtual Machine
+Moving from Single User Application to  MultiUser Application
+
+Moving Stand alone Application to  Multi Layer Application
+
+Cloud Computing
+		Effiencient use of existing Hardware, network across globe.
+		Cloud Providers
+		Companies
+		Customers, Employees, Vendors  at one place ( Portal)
+		Azure, AWS, Google Cloud
+
+		Infrastrcture As A Service
+		Platform As A Service
+		Software As A Service
+
+	Company-
+		Users:
+			Customers:( external)
+			employees: (internal)
+	
+			vendors: ( trusted external users)
+			suppliers
+			dealers
+
+		People ready software:
+			Connected people
+			Collaboration
+			Automated Business Processes
+			Business Productivity tools
+			Business Insights( BI)
+
+2000-2022----
+		22 years
+
+	
+	Desktop Application: (Stand alone)
+			office Applications
+				word----creating documents ( .docx)
+				powerPoint---creating presentations (.pptx)
+				excel--------manging, updating, creating bussiness data (.xlsx )
+	Distributed Application:
+		    Web Application
+	
+			2001------STS ( Sharepoint Team Servicec  Portal)
+				  SharePoint Server 2001 (Sharepint Portal Server)
+			ECM ( Enterprise Content Management)--
+			SPS2002
+			SPS2003
+			MOSS 2007------( Microsoft Office SharePoint Server 2007) within  compnay network ( LAN , WAN)
+	
+		 Internet , Intranet, Extranet
+
+		  Internet----- Web--------Cloud
+			
+		 Internet based Applications : Cloud Applications ( cloud App) (Cloud services)
+					       Online Applications (online app) (online services)
+
+	
+		 Cloud -------Computing (SharePoint Online)
+			Cloud services:
+					Infrastructure as a Service ( IAAS)
+					Platform as a Service ( PAAS)
+					Software As  A Service ( SAAS)
+			SharePoint Online------subscription based access for individuals, companies, external 										users
+		2012:	Office 365------ Cloud Services--------------------Software As A Service
+		2022:   Microsfot 365.-----
+			JIRA -----------Cloud Service------Atlassian
+
+
+
+	
+	Cloud Environment: Microsoft Azure (MS )
+			
+	Google Apps
+	Microsoft 365
+	Amazononline
+
+Metaverse
+
+
+Cloud Providers:  	Microsoft, Google, Amazon
+Physical computation:	data centers with fiber optic cable high speed connectivity across globe
+Cloud :		  Azure Cloud, GCP ( Google Cloud Platform),  AWS (Amazon Web Services)
+
+
+
+
+
+
+
+Physical server:
+		Actual RAM, Actual processor, network
+
+Virtual Server:
+
+		Virtualization Software: 
+	
+Steps for launching simple web site with welcome page using Virtual server launched using AWS Subscription
+1.Create Free Tier User Account for AWS.
+2.Login to AWS console using aws account.
+3.Set Datacenter to Mumbai on AWS Page.
+4.Select EC2 AWS Cloud service for launching virtual server in Mumbai Data Center
+5.Create New EC2 instance with Amazon Linux Operating system with t2.micro free tier instance type.
+6.Save ppk file for private key , which will be needed for connecting to EC2 instance remotely using Putty Client.
+7.Ensure state of Launched instance get changed to Running.
+8.Connect to Launched instance using connect option avaialble.
+9.Ensure remote ssh linux terminal opened in browswer .
+10.Update Linux Os with latest packages using sudo yum update command.
+11.Create folder IET, Transflower using mkdir command.
+12.Install git client to clone code repositories from github subscription.
+13.check git got installed using git -v command.
+14.change directory to IET or Transflower using cd transflower command.
+15.Use git clone https://www.github.com/ravitambade/webapp.git to download repository from github.
+16.Ensure Node js installed on Linux by command nodejs -v
+17.If you want to install NodeJS 12.x, add the following repository.
+	-------------- A user with root privileges  --------------
+	$ sudo curl -sL https://rpm.nodesource.com/setup_12.x | sudo bash -
+18.If you want to install NodeJS 10.x, add the following repository.
+
+	$ sudo curl -sL https://rpm.nodesource.com/setup_10.x | sudo bash -
+19.you can now install Nodejs and NPM on your system using the command below:
+	$ sudo yum -y install nodejs
+20.Check node js intalled by following command
+	$ nodejs -v
+21.change directory to webapp in Transflower folder
+	cd webapp
+22.Download libraries to run Node JS application using following command
+	npm install 
+23.Run Command  
+	node server.js to start running web server using nodejs and listen on port 8100.
+24.Configure firewall to accep  alltraffic from anywhere using inbound rule to be set to Security Group of launched instanced.
+25.Check the Public IP address of Launched instance (Virtual Server)/.
+26.Open Browser and access website Url .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

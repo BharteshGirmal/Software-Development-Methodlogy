@@ -1,0 +1,28 @@
+KISS design pattern here stands for KEEP IT SIMPLE STUPID.
+
+This principle simply indicates that the simplest solution or path should be taken in a situation. This principle can be applied to any scenario, including many business activities, such as planning, management, and development. We will discuss this in terms of software design and development.
+
+A common problem among software engineers and developers is that we tend to over complicate problems. Actually we live in complicated world. As we are working on different projects in development, some projects are very simple and some projects are difficult. So while working on even simple projects we choose to follow the difficult path which we followed in complicated projects.
+
+
+Wherever possible, complexity should be avoided in a system—as simplicity guarantees the greatest levels of user acceptance and interaction. The objective of any process/design should to deliver the simplest possible outcome.
+
+While Coding or doing development
+
+These are few of the points which I follow while doing software development or design.
+
+1.Don’t use complex logic if it can be done simply. For instance, if we want to use logging in the project. One approach is to write your own logic to create the log file, then write the content in the log file, manage different log levels etc. Another simple way is to use some already built Nuget package/Dll in you project (e.g Serilog) which have these logics already written. Just use it without adding complexity in you project.
+
+2.Don't be afraid to throw away code. While refactoring the code always remove unwanted code.
+
+3.Solve the problem, then code it. First of all spend time to understand the problem and how it can be solved. Only after that jump to solve it. Break down your tasks into sub tasks and solve one by one by keeping them simple.
+
+4.Sometimes we use fancy features of the technology just to use them, we should not use them until required.
+
+
+
+Keep your methods small, each method should never be more than 40-50 lines.
+
+Each method should only solve one small problem, not many use cases. If you have a lot of conditions in the method, break these out into smaller methods. It will not only be easier to read and maintain but also can find bugs a lot faster.
+
+

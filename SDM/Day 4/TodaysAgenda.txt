@@ -1,0 +1,159 @@
+
+100========Software have been developed
+5 % =======software are thrown into dust bin
+95 % =======software are used by customers  ( Fully Operational)
+
+Zero Defect Software Product
+Software Acceptance by customer will be High.
+
+
+Efficiency=
+		Good practices:
+		  SRS
+		   Diagrams
+		SDLC life cycle
+		Model
+
+		Design: Guidlines:
+		  Design Principles:
+			DRY : Don't repeat  yourself
+			Hollywood :do not call  us , we will call you
+			SOLID :
+				S:Single Responsibility Principle
+				O:Open for extenstion and closed for modification principle
+				L:Liskov Substituion Principle
+				I:Interface Seggragation Principle
+				D:Dependency Injection
+		Modules:
+	
+			Product catalog:
+					CRUD Operations
+					Filtering Operations
+			Shopping Cart:
+			Orderprocessing:
+			Paymentprocessing:
+			Membersip Roles Management:
+			Shipment:
+			CRM:
+
+		Design Principles---------
+				
+
+					
+		Patterns---------------------Singleton pattern
+					     classfactory
+					      Oberserver Patterns
+					     23 Design Pattern
+
+	
+		Framework--------------------MVC
+					     MVP
+					     MVVM
+					     Entity Framework
+					     Spring Framework
+					     Django Frameowrk
+					     asp.net core 
+
+
+		OnlineShopping Application------
+						Java
+							Hibernate, JPA frameowrk
+							Spring boot framework
+						.NET
+							entity framewrk, ( ORM framework)
+							asp.net core MVC
+
+						Python:
+							DB connectors ORM framework
+							Django
+						
+						Node JS:
+							DB modules
+							Express JS Framework
+							ORM
+						 
+formatter.java
+		package Serialization;											Stream-------------TextSTream
+																------------JSONStream
+																------------XMLStream
+																------------DatabaseStream
+
+
+		public Class Formatter
+		{
+			private Stream theStream=null;
+			public Formatter(stream s)     // Constructor Dependency Injection
+			{
+				this.theStream=s;
+			}
+
+			serialize(object o){
+				this.theStream.save()
+			}
+			
+			Object deSerialize(string path){
+				return this.theStream.load(path);
+			}
+		}
+
+
+test.java
+
+	package Testing;
+	public class Tester {
+
+		public stastic void  main(String  args[])
+		{
+		 Stream stream =new JSONSStream() 
+		//TextStream stream=new TextStream();		//dependecy
+
+		 Formatter formatter=new Formatter();    //inject dependency at the time of construction   ( DI)
+
+		 Person thePerson=new Person("Ravi", "Tambade", "ravi.tambade@transflower.in", 
+					     "Pune Satara Road, Walvekar Nagar, Pune, Maharashtra");
+		 formatter.serialize(thePerson);
+
+
+		}	
+
+	}
+
+	
+
+OOA:Object Oriented Analysis------------------------
+						    Abstraction
+						    Encapsulation
+						    Inheritance & Polymorphism
+						    
+						    Typing
+						    Concurrenency
+						    Modularity
+						    Persistence
+						    		
+
+
+OOD: Object Oriented Design---------------------------Use Case Diagrams
+						      Sequence Diagrams
+					              Class Diagrams
+						      Activity Diagrams
+						      State Transition Diagrams
+						      Deployment Diagrams
+
+OOPs:Object Oriented Programming----------------------syntax 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						

@@ -1,0 +1,157 @@
+SDLC:
+	Different phases of SDLC
+		Planning------Requirement Engg. (Requirement Gathering)
+		Analysis------Good SRS Document
+		Design--------UML 
+			      Object Notation
+				Use case --------------identifying actors, system boundry, use cases, relations
+						       interaction
+				class diagrams---------
+							Real world entities ( Object)
+						       Abstratction,
+								 essential characteristics of system
+								 depending on perspective of an observer
+						       Encapsulation,
+								 Hiding complexity
+						       Inheritance
+								  Generalization,
+								  Specialization
+								  arranging  classes in hiearchy
+							
+							Typing
+								Primitive types
+									(int, float, double, boolean, enum)
+							        User defined types
+									structure, classes
+				state transition 
+				activity diagrams
+				deployment diagrams
+
+
+
+	
+	Day 5:
+	
+		Identify packages, Modules,  Namespaces
+				Logical collection of  classes , interface, enumerations, sub packages
+
+		Identify classes and their relationshiops
+
+
+		
+		Implementation:
+				Team:
+					software developers,
+					tools.
+					Practices (Methodology)
+
+				Tool: 
+					Source Control Management:
+							Change Management
+							Versioning
+							Code reposity
+					Developer will work on his/ her desk
+					IBM clear case,
+					Rational Tools,
+					Git, GitHub---------
+					
+					Waterfall Model
+
+					Spiral Model ( SDLC)
+						Agile Methodology
+					
+					JIRA ( Project Management)
+
+
+
+
+
+
+	Identify classes and their relationshiops
+
+			Design Principles------------------
+						DRY (don't repeat your self)
+						Hollywood (don't call me , I will call you)
+						SOLID:
+							Single Responsibility Principle
+							Open for extenstion and close for Modification
+							Liskov Substitution Principle
+							Interface Segragation Principle
+							Dependency Inversion Principle (Loosely coupled , Highly Cohesive)
+						KISS ( Keep it simple and Stupid)
+
+
+			Simplicity:
+					means encapsulation of complexity
+
+			Clean Architecture
+			
+			Business Application: Shopping Aplication
+			IT Solution	    : ECommerce Solution
+			Platform	    : Web  (Cloud) (internet)
+			Entities:
+				POJO: ( Java )
+					Plain Old Java Object
+
+				POCO: (C# or vb.net)
+					Plain Old CLR Object
+					
+					product 23 samsung galaxy 400000   	6000
+					product 24 sony playstation 1500000	1000
+
+			 Product: Product ID, Title, Description, Category, Picture,Unit Price,StockAvailable
+				Role:
+					Role Id, Title, Description
+ 
+				User:Email, Password,FirstName, LastName, Residential Address, Contact Number
+				      Gender, Account Id, IFSC Code,Role
+				 Cart:
+					cartid
+					List of Items
+				 List: (Container)
+					Collection
+					ArrayList, LinkList, Dictionary, Tree, HashTable
+				 Cart Item:
+					itemId 1
+					Product  23
+					Quantity 2
+						
+				 Order:
+					OrderId,
+					OrderDate,
+					Customer
+					OrderStatus
+					List of Items
+
+				 Payment
+					paymentid
+					date
+					Order
+					Amount
+					PaymentMode
+				
+				PaymentMode:
+					   NetBanking
+					   UPI
+					   GPay
+					   Cash On Delivery
+					   Debit Card
+					   CreditCart
+					   wallet
+				 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

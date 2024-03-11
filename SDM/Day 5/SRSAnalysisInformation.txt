@@ -1,0 +1,140 @@
+
+SDLC:
+	Software Development Life Cycle
+
+	 Planning------------------SRS document
+	 Analysis & Design---------Diagrams
+				DFD (Data Flow Diagrams)
+				UML diagrams
+				   Use case Diagrams
+				   Sequnce Diagrams
+				   Activity Diagrams
+				   State Transition Digrams
+				   deployment Diagrms
+				   
+
+
+		System Analyst, Software Designer, 
+		Software Architect, Quality Assurance Team
+				   
+		Type of Application-------
+					1.console application:		
+								dir, cls, date
+					2.Windows Applications:
+								notepad, paintbrush, 
+								excel
+								(stand alone applications)
+								(desktop applications)
+								(single user application)
+
+					3.Web based Application
+							(distributed Application)
+							(multi user application)
+							(multi server application)
+
+							(Client Sever)
+Modularity:
+
+
+List of actors:
+		End User (Visitor)
+		Customer
+		Sales Team
+		Seller (Merchant), (Shopper)
+		Board of Directors
+		Delivery person
+		Delivery company represtative (Manager)
+
+
+
+Identify List of modules, 
+Identify List of actors,
+Identify relations between modules using 
+					uses
+					extends
+
+Identify which actors will interact with system using which Module
+
+
+List of Modules:(Use case)
+		ProductCatalog Module
+				Product List
+				product details
+				product crud Operations (c--- create, r--read, u----update, d---delete)
+
+
+		Membership & Roles Management Module
+				Customer Registration
+				login ( validate, authenticate)
+				forgot password
+				change password
+
+		ShoppingCart Module
+		OrderProcessing module
+		Payment& Billing module
+		Shipment module
+		CRM Module
+
+		
+		
+
+		loosely coupled , highly cohesive 
+		set of modules	
+		Categories
+		
+		maintain shoppingcart
+				addto Cart
+				remove from Cart
+				Get Cart Detail
+
+		
+		Customer details
+		
+		OrderCreation
+		OrderCancellation
+		OrderStatusUpdate
+		Ordertracking
+		OrderDetails
+		Orderverfication
+		Order History
+		
+		PaymentMode
+		capture paymentdetails
+		Payment Gateway Inegration
+
+		Manage delivery details
+				delivery location
+				get status of delivery
+				change status of delivery
+				Get Delivery Vendors list
+				Get Devliery Vendor Details
+				Register delivery vendor
+				Manage Devlivery staff registration.
+
+		Customer Reviews
+		Customer notification
+		360 degree view using dashboard
+		Customer Dashboard
+		Saler Dashboard
+		BOD Dashborad
+		Sales & marketing Dashboard
+
+
+LOB(Line of Business)
+		Payment Gateway
+
+
+		Ravi Tambade--------9881735801
+			FirstName Lastname Prn Number
+
+
+
+
+
+			
+		
+
+
+
+
+

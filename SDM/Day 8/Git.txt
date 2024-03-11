@@ -1,0 +1,240 @@
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM
+$ git --version
+git version 2.36.0.windows.1
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM
+$ git status
+fatal: not a git repository (or any of the parent directories): .git
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM
+$ git init
+Initialized empty Git repository in E:/CDAC/08.SDM/.git/
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        01_SoftwareDevelopmentTask.jpg
+        02_ArchitectureOfComplexSystem.jpg
+        03_Abstraction.jpg
+        04_ObjectsCollaborate.jpg
+        05_Encapsulation.jpg
+        05_Modularity.jpg
+        07_Hierarchy.jpg
+        10_Persistence.jpg
+        11_Object.jpg
+        12_ObjectsCanPlaymultipleRole.jpg
+        13_ObjectLifeTime.jpg
+        14_Class.jpg
+        1_SingleResponsibility.png
+        2_OpenClosed.png
+        31_5_22Notes.txt
+        3_Liskove.png
+        4_InterfaceSegregation.png
+        5_DependencyINjection.png
+        8_Typing.jpg
+        9_Concurrency.jpg
+        SRSAnalysisInformation.txt
+        SRS_OnlineShoppingSystem.txt
+        Use Class Diagram.png
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git add .
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   01_SoftwareDevelopmentTask.jpg
+        new file:   02_ArchitectureOfComplexSystem.jpg
+        new file:   03_Abstraction.jpg
+        new file:   04_ObjectsCollaborate.jpg
+        new file:   05_Encapsulation.jpg
+        new file:   05_Modularity.jpg
+        new file:   07_Hierarchy.jpg
+        new file:   10_Persistence.jpg
+        new file:   11_Object.jpg
+        new file:   12_ObjectsCanPlaymultipleRole.jpg
+        new file:   13_ObjectLifeTime.jpg
+        new file:   14_Class.jpg
+        new file:   1_SingleResponsibility.png
+        new file:   2_OpenClosed.png
+        new file:   31_5_22Notes.txt
+        new file:   3_Liskove.png
+        new file:   4_InterfaceSegregation.png
+        new file:   5_DependencyINjection.png
+        new file:   8_Typing.jpg
+        new file:   9_Concurrency.jpg
+        new file:   SRSAnalysisInformation.txt
+        new file:   SRS_OnlineShoppingSystem.txt
+        new file:   Use Class Diagram.png
+
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git commit -m "OOPs COncepts"
+[master (root-commit) 94fb486] OOPs COncepts
+ 23 files changed, 524 insertions(+)
+ create mode 100644 01_SoftwareDevelopmentTask.jpg
+ create mode 100644 02_ArchitectureOfComplexSystem.jpg
+ create mode 100644 03_Abstraction.jpg
+ create mode 100644 04_ObjectsCollaborate.jpg
+ create mode 100644 05_Encapsulation.jpg
+ create mode 100644 05_Modularity.jpg
+ create mode 100644 07_Hierarchy.jpg
+ create mode 100644 10_Persistence.jpg
+ create mode 100644 11_Object.jpg
+ create mode 100644 12_ObjectsCanPlaymultipleRole.jpg
+ create mode 100644 13_ObjectLifeTime.jpg
+ create mode 100644 14_Class.jpg
+ create mode 100644 1_SingleResponsibility.png
+ create mode 100644 2_OpenClosed.png
+ create mode 100644 31_5_22Notes.txt
+ create mode 100644 3_Liskove.png
+ create mode 100644 4_InterfaceSegregation.png
+ create mode 100644 5_DependencyINjection.png
+ create mode 100644 8_Typing.jpg
+ create mode 100644 9_Concurrency.jpg
+ create mode 100644 SRSAnalysisInformation.txt
+ create mode 100644 SRS_OnlineShoppingSystem.txt
+ create mode 100644 Use Class Diagram.png
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git remote -v
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git log
+commit 94fb4861bbe510194259c3f89840bfb5ca0a1099 (HEAD -> master)
+Author: unknown <pranalimundale6@gmail.com>
+Date:   Sat Jun 4 17:07:29 2022 +0530
+
+    OOPs COncepts
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git show 94fb4861bbe510194259c3f89840bfb5ca0a1099
+commit 94fb4861bbe510194259c3f89840bfb5ca0a1099 (HEAD -> master)
+Author: unknown <pranalimundale6@gmail.com>
+Date:   Sat Jun 4 17:07:29 2022 +0530
+
+    OOPs COncepts
+
+diff --git a/01_SoftwareDevelopmentTask.jpg b/01_SoftwareDevelopmentTask.jpg
+new file mode 100644
+index 0000000..d291719
+Binary files /dev/null and b/01_SoftwareDevelopmentTask.jpg differ
+diff --git a/02_ArchitectureOfComplexSystem.jpg b/02_ArchitectureOfComplexSystem.jpg
+new file mode 100644
+index 0000000..698fe1b
+Binary files /dev/null and b/02_ArchitectureOfComplexSystem.jpg differ
+diff --git a/03_Abstraction.jpg b/03_Abstraction.jpg
+new file mode 100644
+index 0000000..43d9491
+Binary files /dev/null and b/03_Abstraction.jpg differ
+diff --git a/04_ObjectsCollaborate.jpg b/04_ObjectsCollaborate.jpg
+new file mode 100644
+index 0000000..f3c879c
+Binary files /dev/null and b/04_ObjectsCollaborate.jpg differ
+diff --git a/05_Encapsulation.jpg b/05_Encapsulation.jpg
+new file mode 100644
+index 0000000..a61e76f
+Binary files /dev/null and b/05_Encapsulation.jpg differ
+diff --git a/05_Modularity.jpg b/05_Modularity.jpg
+new file mode 100644
+index 0000000..4f70f8a
+Binary files /dev/null and b/05_Modularity.jpg differ
+diff --git a/07_Hierarchy.jpg b/07_Hierarchy.jpg
+new file mode 100644
+index 0000000..75ad4d8
+Binary files /dev/null and b/07_Hierarchy.jpg differ
+diff --git a/10_Persistence.jpg b/10_Persistence.jpg
+new file mode 100644
+index 0000000..076f444
+Binary files /dev/null and b/10_Persistence.jpg differ
+diff --git a/11_Object.jpg b/11_Object.jpg
+new file mode 100644
+index 0000000..b554737
+Binary files /dev/null and b/11_Object.jpg differ
+diff --git a/12_ObjectsCanPlaymultipleRole.jpg b/12_ObjectsCanPlaymultipleRole.jpg
+new file mode 100644
+index 0000000..5b1322d
+Binary files /dev/null and b/12_ObjectsCanPlaymultipleRole.jpg differ
+diff --git a/13_ObjectLifeTime.jpg b/13_ObjectLifeTime.jpg
+new file mode 100644
+index 0000000..7469efb
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ ll
+total 2580
+-rw-r--r-- 1 LENOVO 197121  46361 Jun  2 15:22  01_SoftwareDevelopmentTask.jpg
+-rw-r--r-- 1 LENOVO 197121 103039 Jun  2 15:22  02_ArchitectureOfComplexSystem.jpg
+-rw-r--r-- 1 LENOVO 197121  99748 Jun  2 15:21  03_Abstraction.jpg
+-rw-r--r-- 1 LENOVO 197121 120289 Jun  2 15:22  04_ObjectsCollaborate.jpg
+-rw-r--r-- 1 LENOVO 197121  90978 Jun  2 15:22  05_Encapsulation.jpg
+-rw-r--r-- 1 LENOVO 197121 136980 Jun  2 15:21  05_Modularity.jpg
+-rw-r--r-- 1 LENOVO 197121  82975 Jun  2 15:23  07_Hierarchy.jpg
+-rw-r--r-- 1 LENOVO 197121 125576 Jun  2 15:22  10_Persistence.jpg
+-rw-r--r-- 1 LENOVO 197121 122776 Jun  2 15:22  11_Object.jpg
+-rw-r--r-- 1 LENOVO 197121 131121 Jun  2 15:22  12_ObjectsCanPlaymultipleRole.jpg
+-rw-r--r-- 1 LENOVO 197121  96495 Jun  2 15:22  13_ObjectLifeTime.jpg
+-rw-r--r-- 1 LENOVO 197121 124352 Jun  2 15:22  14_Class.jpg
+-rw-r--r-- 1 LENOVO 197121 150961 Jun  2 15:23  1_SingleResponsibility.png
+-rw-r--r-- 1 LENOVO 197121 128909 Jun  2 15:23  2_OpenClosed.png
+-rw-r--r-- 1 LENOVO 197121   7283 May 31 16:16  31_5_22Notes.txt
+-rw-r--r-- 1 LENOVO 197121 169355 Jun  2 15:23  3_Liskove.png
+-rw-r--r-- 1 LENOVO 197121 436906 Jun  2 15:23  4_InterfaceSegregation.png
+-rw-r--r-- 1 LENOVO 197121 132665 Jun  2 15:23  5_DependencyINjection.png
+-rw-r--r-- 1 LENOVO 197121  85999 Jun  2 15:22  8_Typing.jpg
+-rw-r--r-- 1 LENOVO 197121 131131 Jun  2 15:22  9_Concurrency.jpg
+-rw-r--r-- 1 LENOVO 197121   2640 Jun  1 15:52  SRSAnalysisInformation.txt
+-rw-r--r-- 1 LENOVO 197121  10024 Jun  1 13:10  SRS_OnlineShoppingSystem.txt
+-rw-r--r-- 1 LENOVO 197121  57070 Jun  2 17:39 'Use Class Diagram.png'
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ vi SRS_OnlineShoppingSystem.txt
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git remote add shop https://github.com/000pratyush/OnlineShopping.git
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git remote -v
+shop    https://github.com/000pratyush/OnlineShopping.git (fetch)
+shop    https://github.com/000pratyush/OnlineShopping.git (push)
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git push shop master
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 2.38 MiB | 933.00 KiB/s, done.
+Total 25 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/000pratyush/OnlineShopping/pull/new/master
+remote:
+To https://github.com/000pratyush/OnlineShopping.git
+ * [new branch]      master -> master
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git merge main
+merge: main - not something we can merge
+
+LENOVO@DESKTOP-7DL000P MINGW64 /e/CDAC/08.SDM (master)
+$ git merge master main
+merge: main - not something we can merge
+
+

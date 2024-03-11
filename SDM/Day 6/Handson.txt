@@ -1,0 +1,18 @@
+
+Git Handson.
+
+1.Create your login for github site.
+2.Create your-project-name private code repository in your github subscription.
+3.Invite your team members to your code repository as contributors.
+4.Add few source files to code repository.
+5.Allow other contributors to add or remove source files using browser based tool.
+6.Commit changes to code repository using Browser based tool by each contributor.
+7.Detect changes done to code repository.
+8.Download and install Git client for your targetting machine.
+9.Use git command clone to copy from Centralized repository to  local repo on your machine.
+10.Use any Editor Visual Code, Eclipse or Visual Studio to edit, add new source code, files to local repo.
+11.Use git status command to check status of git repo.
+12.Uset git add command to add source files to draft .
+13.Use git commit command to commit files.
+14.Use git push command to push changes to Centralized repository.
+15.Track changes using git tool.

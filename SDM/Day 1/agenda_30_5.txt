@@ -1,0 +1,267 @@
+
+
+SDM
+Welcome to Module Softwarwe Development Methodology
+Let us  use music, video, interactions, and ofcourse learning expereincd togegher 
+
+I do understand it is post lunch session.
+Let us make fun of it.
+
+We are going through process of Building Software for OnlineShopping 
+
+
+	ECommerce Solution 
+			to be designed, 
+			   developed, tested and 
+			   deployed to Commerce company
+
+	Ravi Tambades way:
+
+		Qualification is not a barrier
+
+			BA,-------------------IT course --------------you can do it
+			BCOM------------------IT course --------------you can do it
+			
+
+			MCA-------------------IT course --------------you can do it
+			BSc-------------------IT course--------------you can do it
+			BTech-----------------IT course--------------you can do it
+			BE--------------------IT course--------------you can do it
+
+		We always learn process, pattern in our life daily
+			So why can we follow same in Software ???????????????????????????????????????
+
+			Yes we can .......
+			
+			Let us become good engineer. IT Engineer.
+
+
+			Art of Science...... using Creative way
+
+
+			BE:
+				Engineering: applied Science 
+					     art of Science
+
+					process
+					practices
+					Patterns:   production
+
+					Design
+
+			Software Engineering:
+
+			Engineering:
+			( Software Development Methodology)
+
+			Software: ?
+			Development:  ?
+
+			This is what we are going to learn in practally
+
+			Methodology:
+				Agile Methodology
+				Scrum
+				CD/CI (	Continous Delivery/ continous integration)
+				Automation Testing
+				
+			Roles played in IT company:
+				You could have one role or you could play multiple role in  your IT Job
+			In SDM , you would go through each and every role for bulding ECommerce Solution.
+			You would get clarity of each and every role :
+					B.Analyst  S.Analyst
+					System Designer
+					Software Architect
+					Software Quality (QA)
+					Automation Testing, Mannual Testing
+					Operations Management
+					DevOps
+					Deployment
+
+                     
+		Do not think just Coding as a skill to build
+		Try to  understanding Programmer Role
+		Get your self for Developer Profile ( Fullstack)
+		We want to become Solution Provider in long run as per industry expectation
+		  
+		 FullStack Developer                    
+			Developer focuses on language : C++, Java, Adv. Java, C # .net, Python
+		 We want to focus on higher level
+
+			Java Fullstack
+			.NET FullStack
+			MEAN , MERN , MEVN  Javascript full, these all  you are going to learn in next 
+			Modules.
+		SDM is preparing for you for above things
+
+			
+			
+Programming Languages are important:
+	But Foundation is most important
+		These are differnt languages are used to build software:
+			Pascal, Cobol, Fortran	
+			C,C++, 	
+			Javascript, HTML
+			java, C#, , Python, Typescript, 
+			Ruby
+			Go, Dart
+
+
+ECommerce Solution to be designed, developed, tested and deployed to Commerce company
+		using Software Development Methologies
+			
+	We are learning these things in SDM from the context of ECommerce Solution.
+
+
+			Architecture:
+					Microservices
+			Framework:
+					MVC
+			Object Model:
+					UML
+			Analysis
+					Requirement Engineering
+			Design
+					Object Oriented Design
+			Development
+					scrum,
+					User stories
+					Product catalog
+					sprint
+			SDLC
+					Waterfall
+					Spiral model;
+			Tools: we are going to have practical for folling tools and technologies during SDM .
+
+					Git
+					Jira
+		 			AWS
+					docker
+					kubernetes
+
+	This is going to be our shedule for each day. So keep your self reserved.....
+
+	SDM ( Full day)
+	
+	9:30 am ---------11:30 am------------session
+	11:30 am---------11:45 am------------break
+	11:45 am ----------1:00 pm-----------session
+	1:00 pm ------------2:00 pm-----------lunch break
+	2:00 pm ------------3:30 pm-----------session
+	3:30 pm ------------3:45 pm-----------break
+	3:45 pm------------6:00 pm -----------session
+
+
+	C,C++, Java---------------------to wirte program
+	module--------------------------reusable functionality
+	Application----------------------
+	Solution-----------------------will be deployed to Customer company
+	IT Solution will be hosted on Server
+
+	Consumers , End User will invoke IT solution using their personal devices
+								Mobile Phone
+								Desktop Computer
+								Laptop 
+								TAP
+								Smart Watch
+								Hololens
+
+		___________________________________________________________________________________________________________________						
+								
+
+	output : IT Solution (ECommerce Portal)
+	Who ?: Solution Provider
+		IT Solutions ( so many Applications)---------------------------------------------IT Solution----------------
+		Application ( using so many Features, functionalities)----------------------------Applications
+		Features & Functionalities( by using more than reusable Software Modules)\-------Functionality
+		Modules (using so many frameworks)----------------------------------------------Integrated Modules
+		Frameworks (using so may Object Models)-------------------------------Development
+		Object Model( formed using more than one classes)
+		Class( using members)--------------------------------------------------Programming
+		
+			Members( data members
+			
+			class level (Shared) static
+			
+			 Member functions
+				 more than one functions
+
+				 getters, setters
+				 constructors
+				 Finalize 
+			)
+			 
+			Functions:
+				  Code segment-----------------------------------------Coding
+					will contain
+						Programming statements
+							Mathematical statement
+							conditional statement
+							inbuilt types
+								 int ,float, char, 
+							user defined type
+								 string, Employee, Customer,
+								 Prouduct
+							using some library function			
+What do you mean by DevOps ?
+
+Dev:Development
+	Building Software
+
+Ops:Operations Managment
+  	Software Administration
+	Configuration management
+	Release management
+	Keeping software running
+
+		Library-----------------(set of packages)
+		Object Model------------
+		Architecture
+		Framework---------------------Spring MVC, DJango, asp.net mvc, express JS, etc.
+
+
+Now let us focus on What do you mean by Software: ?
+
+	 System Sotware
+	 Application Software
+	 	Files
+	 	Binary File
+		 Executable files
+				windows native file	.exe ,.dll 
+				platform independent excutable file
+							.class file    .jar file
+
+		 Open Source files
+				Source Code:
+				Open source code will be stored at centralized place ( Code repository)
+				
+
+		 scripts
+	 
+IT Solution:
+		Domain:  Ecommerce
+		Solution:OnlineShopping Portal
+		Type of Solution:
+				 Portal
+		Type of Application:
+			Distributed Application
+			Front End----------------------------------Back End
+			(Client Side)				 (Server Side)
+
+
+
+Layered Architecture for Distributed Application.....
+
+
+
+
+
+
+
+
+
+
+
+
+
+
